@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: blueviolet;
+}
+.triangle-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+.triangle-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.triangle-3 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.triangle-1 .triangle-up img {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(38% 0%, 10% 88%, 100% 63%);
+}
+.triangle-1 .triangle-right img {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(14% 4%, 14% 100%, 100% 60%);
+}
+.triangle-1 .triangle-left img {
+    width: 200px;
+    height: 200px; 
+    clip-path: polygon(0% 6%, 40% 100%, 100% 21%);  
+}
+.triangle-2 .triangle-up img {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(77% 0%, 10% 87%, 100% 100%)
+}
+.triangle-2 .triangle-right img {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(0% 6%, 40% 100%, 100% 21%);  
+}
+.triangle-2 .triangle-left img {
+    width: 200px;
+    clip-path: polygon(38% 0%, 10% 88%, 100% 63%);
+    height: 200px;   
+}
+.triangle-3 .triangle-up img {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(38% 0%, 10% 88%, 100% 63%);
+}
+.triangle-3 .triangle-right img {
+    width: 200px;
+    height: 200px;
+    clip-path: polygon(14% 4%, 14% 100%, 100% 60%);
+}
+.triangle-3 .triangle-left img {
+    width: 200px;
+    height: 200px; 
+    clip-path: polygon(0% 6%, 40% 100%, 100% 21%);  
+}
