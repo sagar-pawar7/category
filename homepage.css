@@ -5,6 +5,57 @@
 body {
     background-color: blueviolet;
 }
+.main img {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+.images {
+    text-align: center;
+    padding-top: 40px;
+}
+.heading h1 {
+    text-align: center;
+    font-family: Comic Sans MS;
+    font-weight: lighter;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    font-size: 50px;
+} 
+.main .heading-2 {
+    text-align: center;
+    font-family: comic sans MS;
+}
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15%;
+}
+.front-end .front {
+    background-color: #fff;
+    height: 270px;
+    width: 300px;
+    border-radius: 20px;
+}
+.social-media .social {
+    background-color: #fff;
+    height: 270px;
+    width: 300px;
+    border-radius: 20px;
+}
+.desiner .design {
+    background-color: #fff;
+    height: 270px;
+    width: 300px;
+    border-radius: 20px;
+}
+.backend .back {
+    background-color: #fff;
+    height: 270px;
+    width: 300px;
+    border-radius: 20px;
+}
 .triangle-1 {
     display: flex;
     justify-content: space-evenly;
